@@ -2,7 +2,7 @@
 As of now there is only a script for dynamic waybar background for single apps, but there will be more stuff coming!
 
 ## Dynamic background for Waybar
-
+![image](assets/waybar-solo-background/recording.gif)
 SO, to use this thing you will basically need only waybar installed, but if you want to use a script to create a color for a specific app you will also need `grim` for screenshot and `magick` for color exctraction.
 
 #### The way this works:
