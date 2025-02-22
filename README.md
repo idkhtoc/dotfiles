@@ -20,3 +20,11 @@ SO, to use this thing you will basically need only waybar installed, but if you 
    - Example of use: ![image](https://github.com/user-attachments/assets/a1b76136-7d8d-43ae-a776-6fde2e365ae1)
 
 6. It is also important to "touch" the `style.css` so that waybar only updates the style.
+
+#### Additions:
+- For the solo background you will need a hyprland/window module anywhere in waybar.
+- If you have blur, also add blur to the waybar with `layerrule = blur, waybar` in `hyprland.conf`.
+   - Also, there can be a very strange visual clipping of blurs when `xray` blur option is turned off, so for it to work properly, turn this on.
+- There is a bug, when using pinned floating window, waybar does not remove .solo class and last used background stays.
+
+## If you have any suggestions, contact me!
